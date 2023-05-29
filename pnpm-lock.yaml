@@ -7,6 +7,7 @@ specifiers:
   autoprefixer: 10.4.14
   eslint: 8.38.0
   eslint-config-next: 13.3.0
+  monaco-editor: ^0.38.0
   next: 13.3.0
   postcss: 8.4.23
   react: 18.2.0
@@ -21,6 +22,7 @@ dependencies:
   autoprefixer: 10.4.14_postcss@8.4.23
   eslint: 8.38.0
   eslint-config-next: 13.3.0_voubu7prgxjfsfbgx5d4sqnwiy
+  monaco-editor: 0.38.0
   next: 13.3.0_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.23
   react: 18.2.0
@@ -1706,6 +1708,10 @@ packages:
 
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: false
+
+  /monaco-editor/0.38.0:
+    resolution: {integrity: sha512-11Fkh6yzEmwx7O0YoLxeae0qEGFwmyPRlVxpg7oF9czOOCB/iCjdJrG5I67da5WiXK3YJCxoz9TJFE8Tfq/v9A==}
     dev: false
 
   /ms/2.1.2:
