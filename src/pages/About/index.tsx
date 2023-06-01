@@ -4,7 +4,7 @@ import * as monaco from "monaco-editor";
 export default function About() {
   useEffect(() => {
     monaco.editor.create(document.getElementById("container")!, {
-      language: "javascript",
+      language: "typescript",
     });
   }, []);
   return (
